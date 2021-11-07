@@ -1,0 +1,21 @@
+# 주소연계 API Key
+appKey: 111111111111111111111=
+
+# 스케줄러 주기설정
+scheduler:
+  cycle:
+    receiveAddrInfo: 0 0 7 * * *
+
+# 내장톰캣 포트
+server:
+  port: 8080
+
+# 로그 설정
+logging:
+  file:
+    name: logs/jusosync.log
+  level:
+    jusosync: DEBUG
+
+# 체계별 동기화 상태 저장파일
+syncPropPath: config/syncStatus.properties

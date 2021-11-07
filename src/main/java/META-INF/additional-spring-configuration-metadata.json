@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "appKey",
+    "type": "java.lang.String",
+    "description": "주소연계 API Key"
+  },
+  {
+    "name": "scheduler.cycle.receiveAddrInfo",
+    "type": "java.lang.String",
+    "description": "행안부 주소정보 수신주기"
+  },
+  {
+    "name": "syncPropPath",
+    "type": "java.lang.String",
+    "description": "체계별 동기화 상태 저장파일"
+  }
+]}
